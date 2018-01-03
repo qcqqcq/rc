@@ -1,0 +1,17 @@
+startup_message off
+defscrollback 30000
+hardstatus alwayslastline                                                      
+#hardstatus string '%{= mK}%-Lw%{= KW}%50>%n%f* %t%{= mK}%+Lw%< %{= kG}%-=%D %d %M %Y %c:%s%{-}'
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+ 
+.screenrc
+map <F7> :tabp<CR>
+map <F8> :tabn<CR>
+set ls=2
+set incsearch
+set tabstop=4
+set shiftwidth=4
+set expandtab
+:set number
+syntax enable
+set background=dark
